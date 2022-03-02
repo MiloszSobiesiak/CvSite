@@ -1,11 +1,15 @@
-
-.main {
+div:not(.sidenav){
     position:absolute;
     width: 105%; 
-    height:100%; 
-    background: url("src\assets\bg.jpg")  no-repeat center center fixed;
+    height:100%;
+    background-size: cover;
+    left: 0%; 
+
+}
+
+.main {
+    background: url("src\assets\bg1.jpg")  no-repeat center center fixed;
     top: 0%;
-    left: 0%;
     font-size: 70px;
     font-family: 'Courier New', Courier, monospace;
     color: black;
@@ -22,12 +26,7 @@
 
 .second {
     background: url("src\assets\bg4.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    position:absolute; 
-    width: 105%; 
-    height:100%; 
     top:100%;
-    left: 0%; 
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify ; 
@@ -38,12 +37,7 @@
 
 .third {
     background: url("src\assets\bg5.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    position:absolute; 
-    width: 105%; 
-    height:100%; 
     top:200%;
-    left: 0%; 
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify ; 
@@ -51,33 +45,23 @@
     padding-top: 20%;
 }
 .forth {
-    background: url("src\assets\bg5.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    position:absolute; 
-    width: 105%; 
-    height:100%; 
+    background: url("src\assets\bg3.jpeg")  no-repeat center center fixed;
     top:300%;
-    left: 0%; 
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify ; 
     padding-left: 40%;
     padding-top: 10%;
 }
-.fifth {
+/* .fifth {
     background: url("src\assets\bg5.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    position:absolute; 
-    width: 105%; 
-    height:100%; 
     top:400%;
-    left: 0%; 
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify ; 
     padding-left: 20%;
     padding-top: 10%;
-}
+} */
 
 .sidenav {
     margin:40px auto;
